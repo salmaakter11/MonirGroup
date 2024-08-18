@@ -1,4 +1,5 @@
 import React from 'react'
+import MemberShip from '../Home/MemberShip'
 
 const CompanyProfile = () => {
   return (
@@ -22,28 +23,7 @@ const CompanyProfile = () => {
                 <p>We provide responsive, customer-friendly  excellent service to customer for getting fully
                   satisfied.</p>
               </div>
-              <div className="client-slider">
-                <div className="membership-slider owl-carousel">
-                  <div className="single-brand">
-                    <img src="assets/img/partners/monir groupall-logo/authorised-01.png" alt="img" />
-                  </div>
-                  <div className="single-brand">
-                    <img src="assets/img/partners/monir groupall-logo/authorised-02.png" alt="img" />
-                  </div>
-                  <div className="single-brand ">
-                    <img src="assets/img/partners/monir groupall-logo/authorised-03.png" alt="img" />
-                  </div>
-                  <div className="single-brand ">
-                    <img src="assets/img/partners/monir groupall-logo/authorised-04.png" alt="img" />
-                  </div>
-                  <div className="single-brand ">
-                    <img src="assets/img/partners/monir groupall-logo/authorised-05.png" alt="img" />
-                  </div>
-                  <div className="single-brand ">
-                    <img src="assets/img/partners/monir groupall-logo/authorised-06.png" alt="img" />
-                  </div>
-                </div>
-              </div>
+              <MemberShip/>
             </div>
             <div className="col-xl-4 col-md-12 col-sm-12">
               <div className="icon-box">

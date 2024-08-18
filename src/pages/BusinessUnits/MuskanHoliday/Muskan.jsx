@@ -1,12 +1,15 @@
 import React from 'react'
 import MuskanInfo from './MuskanInfo'
+import MusknaManagment from './MusknaManagment'
+import MuskanTeam from "./MuskanTeam"
 
 const Muskan = () => {
-  return (
-    <>
-    <MuskanInfo/>
-    
-      <div className="modal fade" id="teamMemberModal" tabIndex={-1} role="dialog" aria-labelledby="teamMemberModalLabel" aria-hidden="true">
+    return (
+        <>
+            <MuskanInfo />
+            <MusknaManagment />
+            <MuskanTeam />
+            <div className="modal fade" id="teamMemberModal" tabIndex={-1} role="dialog" aria-labelledby="teamMemberModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -24,7 +27,7 @@ const Muskan = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div className="modal fade" id="teamMemberIdcard" tabIndex={-1} role="dialog" aria-labelledby="teamMemberIdcardLabel" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
@@ -43,8 +46,8 @@ const Muskan = () => {
                     </div>
                 </div>
             </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default Muskan

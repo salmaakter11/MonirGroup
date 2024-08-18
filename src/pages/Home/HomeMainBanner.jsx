@@ -1,6 +1,7 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 
+
 const slides = [
     {
         backgroundImage: 'url(assets/img/monir-group/banner2.png)',
@@ -141,8 +142,7 @@ const Home = () => {
                 loop={true}
                 autoplay={true}
                 smartSpeed={1000}
-                className='active-main-slider owl-carousel'
-            >
+                className='active-main-slider owl-carousel' >
                 {slides.map((slide, index) => (
                     <div key={index} className="main-slider-item" style={{ backgroundImage: slide.backgroundImage }}>
                         <div className="slider-one-content">

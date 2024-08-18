@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import $ from 'jquery';
+import 'magnific-popup';
 import OwlCarousel from 'react-owl-carousel';
 
 const galleryItems = [

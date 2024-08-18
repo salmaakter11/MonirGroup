@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 const teamMembers = [
   {
     id: 1,
@@ -30,10 +30,10 @@ const teamMembers = [
     name: 'MD. Barkat Ullah',
     position: 'Graphic Designer, IT Sheba 24 Dot Com',
     imageUrl: 'assets/img/team/MD.-BARKAT-ULLAH.png'
-  }
+  },
 ];
 
-const HostingTeam = () => {
+const HostingTeam= () => {
   return (
     <section className="team section-space">
       <div className="container">
@@ -55,7 +55,8 @@ const HostingTeam = () => {
                   <span>{member.name}</span>
                   <h5>{member.position}</h5>
                   <ul>
-                    <li><a data-toggle="modal" data-target="#teamMemberModal"><i className="fa fa-eye fa-2x" /></a></li>
+                    <li><Link data-toggle="modal" data-target="#teamMemberModal"><i className="fa fa-eye fa-2x" /></Link></li>
+                    <li><Link href data-toggle="modal" data-target="#teamMemberIdcard"><img src="assets/img/monir-group/id-card.png" width={20} alt="ID card icon" /></Link></li>
                   </ul>
                 </div>
               </div>

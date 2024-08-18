@@ -70,6 +70,51 @@ body {
 }
 
 /*end of topbar area*/
+.owl-next {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    top: 34%;
+    left: -10px;
+    transform: translateY(-50%);
+    z-index: 55;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    color: white;
+    color: white;
+    background: #28a8e1;
+    left: auto !important;
+    right: -14px;
+}
+
+.owl-prev {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    top: 34%;
+    left: -10px;
+    transform: translateY(-50%);
+    z-index: 55;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    color: white;
+    background: #28a8e1;
+    
+}
 
 /*start logo and right sidebar*/
 
@@ -3853,8 +3898,6 @@ ul.postmeta li a {
     color: #777;
     font-size: 15px;
 }
-
-
 
 ul.postmeta li span {
     margin-right: 5px;

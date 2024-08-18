@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import OwlCarousel from 'react-owl-carousel';
+import $ from 'jquery';
+import 'magnific-popup';
 import HomePictureSecound from './HomePictureSecound';
 
 const galleryItems = [
